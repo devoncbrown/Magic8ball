@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <title>Magic 8 Ball</title>  
+
+        <style type ="text/css">
+            *{
+                font-family:Verdana, Geneva, Tahoma, sans-serif;
+            }
+            body {
+                background: linear-gradient(90deg, blue,purple);
+            }
+
+            #content {
+                background: white;
+                width: 400px;
+                margin: auto;
+                text-align: center;
+                padding: 20px;
+                border-radius: 5px;
+            }
+
+            #eightball {
+                width: 350px;
+                height: 350px;
+                background: black;
+                color: white;
+                margin: auto;
+                margin-top: 10px;
+                border-radius: 100%;
+                display: grid;
+                justify-content: center;
+                align-items: center;
+            }
+
+            #answer{
+                font-size: 25px;
+            }
+        </style>
+
+    </head>
+<body>
+    <div id = "content">
+        <h1>Magic Eight Ball</h1>
+        <h2>Type your question below:</h2>
+        <textarea id="question" cols="40" row="4"> 
+        </textarea> 
+        <br>
+        <button>Shake!</button>
+        <div id="eightball"> 
+            <p id="answer">Ask again later!</p>
+    </div>
+    <script type="text/javascript" src="8ball.js">
+
+        
+    </script>
+</body>
+</html>
